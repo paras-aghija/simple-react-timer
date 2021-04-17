@@ -1,0 +1,33 @@
+body{
+    background-color: black
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color:white;
+    text-align:center;
+}
+
+.timer{
+    font-size: xxx-large;
+}
+
+.button{
+    background:black;
+    color:white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+}
+
+.button:hover{
+    background: azure;
+    color: black;
+}
+    

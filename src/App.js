@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import './App.css'
 
 function App() {
   const [timer, setTimer] = useState(0)
@@ -34,12 +35,12 @@ function App() {
 
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>React Timer</h1>
-      <h2>{ timer }</h2>
-      <button onClick={handleStart}> START </button>
-      <button onClick={handleStop}> STOP </button>
-      <button onClick={handleReset}> RESET </button>
+      <h2 className="timer">{ timer }</h2>
+      <button className="button" onClick={handleStart}> START </button>
+      <button className="button" onClick={handleStop}> STOP </button>
+      <button className="button" onClick={handleReset}> RESET </button>
     </div>
   );
 }
